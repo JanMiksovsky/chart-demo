@@ -7,7 +7,7 @@
     "chart.js": "4.4.3"
   },
   "scripts": {
-    "build": "rm -rf build; ori @copy src/site.ori, @mkdir/build",
+    "build": "ori @copy src/site.ori, @clean @files/build",
     "start": "ori @serve @watch src, =@debug site.ori"
   }
 }

@@ -1,1 +1,1 @@
-@map(content, @inline) → @mapFn(@mdHtml)
+@map(content, { extension: "md", value: @inline }) → @mapFn(@mdHtml)

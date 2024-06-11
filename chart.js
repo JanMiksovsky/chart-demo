@@ -12,6 +12,6 @@ export default async function chart(input) {
   // Create the chart
   new Chart(ctx, config);
 
-  // Return the SVG string
+  // Return the chart in SVG format
   return canvas.toBuffer("image/svg+xml");
 }

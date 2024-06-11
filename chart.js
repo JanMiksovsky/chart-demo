@@ -13,7 +13,5 @@ export default async function chart(input) {
   new Chart(ctx, config);
 
   // Return the SVG string
-  const buffer = canvas.toBuffer("image/svg+xml");
-  const text = buffer.toString("utf-8");
-  return text;
+  return canvas.toBuffer("image/svg+xml");
 }

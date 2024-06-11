@@ -1,0 +1,13 @@
+{
+  "name": "chart-demo",
+  "type": "module",
+  "dependencies": {
+    "@weborigami/origami": "0.0.56",
+    "canvas": "2.11.2",
+    "chart.js": "4.4.3"
+  },
+  "scripts": {
+    "build": "rm -rf build; ori @copy src/site.ori, @mkdir/build",
+    "start": "ori @serve @watch src, =@debug site.ori"
+  }
+}

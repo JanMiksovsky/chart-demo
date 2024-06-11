@@ -1,0 +1,1 @@
+@map(content, @inline) → @mapFn(@mdHtml)
